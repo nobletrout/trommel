@@ -164,7 +164,7 @@ def kw(ff, trommel_output, names):
 
 	#Search for SSL related files - filenames: *.pem, *.crt, *.cer, *.p7b, *.p12, *.key
 	if pem in ff:
-		trommel_output.write("A SSL related .pem file: %\ns" % ff)
+		trommel_output.write("A SSL related .pem file: %s\n" % ff)
 	if crt in ff:
 		trommel_output.write("A SSL related .crt file: %s\n" % ff)
 	if cer in ff:
